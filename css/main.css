@@ -34,6 +34,10 @@ body {
   text-decoration: none;
 }
 
+a:focus {
+  outline: 5px solid yellow;
+}
+
 .masthead {
   display: flex;
   justify-content: space-between;
@@ -83,6 +87,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: black;
 }
 
 .banner img {
